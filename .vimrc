@@ -5,6 +5,7 @@ set expandtab
 set cc=80
 set nowrap
 set hlsearch
+syntax enable
 
 " Pathogen 
 set nocompatible
