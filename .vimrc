@@ -13,7 +13,7 @@ call pathogen#infect()
 filetype plugin indent on
 
 " Paredit, off till I learn how to use it
-let g:paredit_mode = 0
+let g:paredit_mode = 1
 
 " Colors for GUI 
 if has('gui_running')
@@ -24,4 +24,4 @@ if has('gui_running')
 endif
 
 " run clojure tests with vim-fireplace
-nmap cpt :Eval (run-tests *ns*)<cr>
+nmap cpt :Eval (clojure.test/run-tests *ns*)<cr>
