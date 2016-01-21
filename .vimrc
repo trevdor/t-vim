@@ -28,3 +28,4 @@ endif
 
 " run clojure tests with vim-fireplace
 nmap cpt :Eval (clojure.test/run-tests *ns*)<cr>
+map <Leader>n <plug>NERDTreeTabsToggle<CR>
