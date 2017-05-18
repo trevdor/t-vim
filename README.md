@@ -8,6 +8,7 @@ Uses these great plugins:
 *  [vim-paredit](https://github.com/vim-scripts/paredit.vim)
 *  [nerdtree](https://github.com/scrooloose/nerdtree)
 *  [vim-nerdtree-tabs](https://github.com/jistr/vim-nerdtree-tabs)
+*  [ctrlp](https://github.com/kien/ctrlp.vim)
 
 
 ### License
