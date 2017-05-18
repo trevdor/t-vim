@@ -10,6 +10,24 @@ Uses these great plugins:
 *  [vim-nerdtree-tabs](https://github.com/jistr/vim-nerdtree-tabs)
 *  [ctrlp](https://github.com/kien/ctrlp.vim)
 
+### Installation
+
+```bash
+git clone --recursive https://github.com/mtbkapp/kapp-vim.git ~/.vim
+ln -s ~/.vim/.vimrc ~/.vimrc
+```
+
+### Troubleshooting
+
+#### Plugins are not loading
+
+This project uses submodules. 
+If you did not clone the project using `--recursive` then you need to manually update submodules.
+```bash
+cd ~/.vim
+git submodules init
+git submodules update
+```
 
 ### License
 Each plugin has its own license, so read those. 
