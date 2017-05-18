@@ -1,4 +1,4 @@
-My minimal (Mac)Vim configuration.
+My (Mac)Vim configuration.
 
 Uses these great plugins:
 *  [Pathogen](https://github.com/tpope/vim-pathogen)
@@ -11,10 +11,11 @@ Uses these great plugins:
 *  [ctrlp](https://github.com/kien/ctrlp.vim)
 
 ### Installation
-
+Backup then delete your existing ~/.vim and ~/.vimrc files.
 ```bash
-git clone --recursive https://github.com/mtbkapp/kapp-vim.git ~/.vim
-ln -s ~/.vim/.vimrc ~/.vimrc
+git clone --recursive https://github.com/mtbkapp/kapp-vim.git 
+ln -s <cloned-dir> ~/.vim
+ln -s <cloned-dir>/.vimrc ~/.vimrc
 ```
 
 ### Troubleshooting
@@ -26,6 +27,12 @@ If you did not clone the project using `--recursive` then you need to manually u
 ```bash
 cd ~/.vim
 git submodules init
+git submodules update
+```
+
+#### Plugins are out of date
+```bash
+cd ~/.vim
 git submodules update
 ```
 
