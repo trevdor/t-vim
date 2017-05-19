@@ -26,14 +26,15 @@ This project uses submodules.
 If you did not clone the project using `--recursive` then you need to manually update submodules.
 ```bash
 cd ~/.vim
-git submodules init
-git submodules update
+git submodule init
+git submodule update
 ```
 
 #### Plugins are out of date
 ```bash
 cd ~/.vim
-git submodules update
+git submodule init
+git submodule update
 ```
 
 ### License

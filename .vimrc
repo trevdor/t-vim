@@ -23,7 +23,7 @@ if has('gui_running')
     syntax enable
     colorscheme solarized
     set background=dark
-    set guifont=Courier:h12
+    set guifont=Courier:h14
 endif
 
 " run clojure tests with vim-fireplace
