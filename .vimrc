@@ -12,11 +12,13 @@ set nocompatible
 call pathogen#infect() 
 filetype plugin indent on
 
-" Paredit, off till I learn how to use it
 let g:paredit_mode = 1
 
 " nerd tree like directory listings
 let g:netrw_liststyle=3
+
+" vim-javascript
+let g:jsx_ext_required = 0
 
 " Colors for GUI 
 if has('gui_running')
