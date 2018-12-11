@@ -1,6 +1,7 @@
-## My (Mac)Vim configuration.
+## My (Mac)Vim configuration
 
-README is pert near theft of Jason Kapp's https://github.com/mtbkapp/kapp-vim.git
+README and initial setup was pert near theft of Jason Kapp's https://github.com/mtbkapp/kapp-vim.git
+
 Combined with some of Ryan Florence's [vim settings](https://gist.github.com/ryanflorence/6d92b7495873263aec0b4e3c299b3bd3)
 
 Uses these plugins:
