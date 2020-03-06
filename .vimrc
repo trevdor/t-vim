@@ -4,11 +4,9 @@
 " Ryan Florence | https://gist.github.com/ryanflorence/6d92b7495873263aec0b4e3c299b3bd3
 "
 
-set nocompatible
-execute pathogen#infect()
-filetype plugin indent on
-
-let g:paredit_mode = 1
+" execute pathogen#infect()
+" syntax on
+" filetype plugin indent on
 
 " Indent using spaces instead of tabs
 set expandtab
@@ -17,9 +15,9 @@ set expandtab
 set shiftwidth=2
 
 " Number of spaces to use for a <Tab> during editing operations
-set softtabstop=2"
+set softtabstop=2
 
-" so I can go up an down wrapped lines
+" go up and down wrapped lines
 map j gj
 map k gk
 
@@ -76,11 +74,8 @@ vnoremap <C-k> :m '<-2<CR>gv=gv
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Toggle file drawer in/out
-nmap ,n :NERDTreeFind<CR>
-nmap ,m :NERDTreeToggle<CR>
-
-" nerd tree like directory listings
-let g:netrw_liststyle=3
+nmap <Leader>n :NERDTreeFind<CR>
+nmap <Leader>m :NERDTreeToggle<CR>
 
 " Treat mdx as md
 autocmd BufNewFile,BufRead *.mdx set syntax=markdown
@@ -96,8 +91,17 @@ if has('gui_running')
     syntax enable
     colorscheme night-owl
     set background=dark
-    set guifont=Hack:h14
+    set guifont=Dank\ Mono:h18
 endif
+
+" for vim >=8.0
+if (has("termguicolors"))
+ set termguicolors
+endif
+
 
 " run clojure tests with vim-fireplace
 nmap cpt :Eval (clojure.test/run-tests *ns*)<cr>
+
+" reload clojure namespace
+map <Leader>r :Require<cr>

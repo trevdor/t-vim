@@ -11,8 +11,8 @@ Uses these plugins:
 - [fireplace](https://github.com/tpope/vim-fireplace)
 - [javascript](https://github.com/pangloss/vim-javascript)
 - [jsx](https://github.com/mxw/vim-jsx)
-- [nerdtree-tabs](https://github.com/jistr/vim-nerdtree-tabs)
 - [nerdtree](https://github.com/scrooloose/nerdtree)
+- [nerdtree-tabs](https://github.com/jistr/vim-nerdtree-tabs)
 - [paredit](https://github.com/vim-scripts/paredit.vim)
 - [pathogen](https://github.com/tpope/vim-pathogen)
 - [prettier](https://github.com/prettier/vim-prettier)
@@ -23,11 +23,10 @@ Uses these plugins:
 Color themes:
 
 - [night-owl.vim](https://github.com/haishanh/night-owl.vim)
-- [solarized](https://github.com/altercation/vim-colors-solarized)
 
 Font:
 
-- [Hack](https://sourcefoundry.org/hack/)
+- [Dank Mono](https://dank.sh)
 
 ### Installation
 
@@ -59,7 +58,3 @@ cd ~/.vim
 git submodule init
 git submodule update
 ```
-
-### License
-
-Each plugin has its own license, so read those.

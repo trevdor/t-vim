@@ -1,24 +1,27 @@
-[submodule "bundle/vim-clojure-static"]
-	path = bundle/vim-clojure-static
+[submodule "pack/vim-clojure-static"]
+	path = pack/vim-clojure-static
 	url = https://github.com/guns/vim-clojure-static.git
-[submodule "bundle/vim-colors-solarized"]
-	path = bundle/vim-colors-solarized
-	url = https://github.com/altercation/vim-colors-solarized.git
-[submodule "bundle/vim-fireplace"]
-	path = bundle/vim-fireplace
+[submodule "pack/night-owl"]
+	path = pack/night-owl
+	url = https://github.com/haishanh/night-owl.vim.git
+[submodule "pack/vim-fireplace"]
+	path = pack/vim-fireplace
 	url = https://github.com/tpope/vim-fireplace.git
-[submodule "bundle/paredit"]
-	path = bundle/paredit
+[submodule "pack/paredit"]
+	path = pack/paredit
 	url = https://github.com/vim-scripts/paredit.vim.git
-[submodule "bundle/nerdtree"]
-	path = bundle/nerdtree
+[submodule "pack/nerdtree"]
+	path = pack/nerdtree
 	url = https://github.com/scrooloose/nerdtree.git
-[submodule "bundle/vim-nerdtree-tabs"]
-	path = bundle/vim-nerdtree-tabs
+[submodule "pack/vim-nerdtree-tabs"]
+	path = pack/vim-nerdtree-tabs
 	url = https://github.com/jistr/vim-nerdtree-tabs.git
-[submodule "bundle/ctrlp.vim"]
-	path = bundle/ctrlp.vim
+[submodule "pack/ctrlp.vim"]
+	path = pack/ctrlp.vim
 	url = https://github.com/ctrlpvim/ctrlp.vim.git
-[submodule "bundle/vim-javascript"]
-	path = bundle/vim-javascript
+[submodule "pack/vim-javascript"]
+	path = pack/vim-javascript
+	url = https://github.com/pangloss/vim-javascript.git
+[submodule "pack/vim-javascript"]
+	path = pack/vim-javascript
 	url = https://github.com/pangloss/vim-javascript.git
